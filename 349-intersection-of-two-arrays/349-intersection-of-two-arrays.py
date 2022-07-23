@@ -1,7 +1,6 @@
 class Solution:
     def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
         s = set()
-        
         f = set(nums1)
         
         for n in nums2:
