@@ -9,8 +9,7 @@ class Solution:
             if intervals[i][0] <= answer[-1][1]:
                 answer[-1][1] = max(intervals[i][1], answer[-1][1])
             else:
-                answer.append(intervals[i])
-                
+                answer.append(intervals[i])   
             i+=1
                 
         return answer
