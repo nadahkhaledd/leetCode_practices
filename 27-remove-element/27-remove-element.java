@@ -7,7 +7,7 @@ class Solution {
         {
             if(nums[i] != val)
             {
-                nums[k] = nums[i];
+                nums[k] = nums[i];   /// we shift all the numbers that are not value to the beginning and return number of shifted values (simulating deletion)
                 k++;
             }
         }
